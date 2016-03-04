@@ -1,0 +1,23 @@
+- name: Beijing Chinese Cuisine
+  rating: 4
+  website: http://www.beijingchinesecuisineseattle.com
+  location: http://www.openstreetmap.org/node/3594749765
+  review: |
+    Favorite thing here is the Veggie Chow Mein, really great flavors that remind me a bit of the places I loved on the east coast. Their spring rolls are also quite solid.
+
+- name: Pho Tic Tac
+  rating: 3
+  location: http://www.openstreetmap.org/way/309142818
+  credit-cards:
+    - accepted
+    - minimum: $10
+  review: |
+    This place is first and foremost a great deal - they advertise a bowl of Pho for $4.95, but that's a large - you can get a medium (which tends to be enough for me) for $3.95. But despite the low prices, this is great Pho with delicious broth and plenty of basil and sprouts on the side. They also have a wonderful Tofu Pad Thai that my wife swears by.
+
+- name: Li'l Woody's Ballard
+  rating: 4
+  website: http://lilwoodys.com
+  location: http://www.openstreetmap.org/node/2138399522
+  review: |
+    Yum - got the Veggie Veggie, which is a black bean based burger, with some pretty standard but very fresh and tasty veggies (tomatoes, onions, iceberg lettuce). My favorite part was house made queso fries - ordering delivery (through Caviar) they gave me a huge tub of cheese sauce that went perfectly with the shoestring fries.
+
