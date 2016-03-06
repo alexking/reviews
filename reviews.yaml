@@ -1,3 +1,16 @@
+- name: Jay Berry's
+  rating: 3
+  website: http://www.jayberryscafe.com
+  location: http://www.openstreetmap.org/way/116217636
+  review: |
+    We came here for breakfast, I had The Spinach omelet, which has onion, mushroom, and (of course) spinach, topped with swiss cheese, and then topped with creamy formaggi sauce (which seems to be their replacement for hollandaise - and despite loving hollandaise I don’t mind at all). My wife had The Rooster, which is basically a scrambled egg sandwich, with a cup of formaggi sauce for dipping. They also had biscuits as an option instead of toast (I’m not a huge toast fan). 
+
+- name: Pop Pop Thai
+  rating: 4
+  location: http://www.openstreetmap.org/way/220550036
+  review: |
+    Really great Fried Tofu Pad Thai – and I really appreciate that they offer tofu as a protein on many of their dishes. Their Yellow Curry and Thai Iced Tea are also fantastic. 
+
 - name: Beijing Chinese Cuisine
   rating: 4
   website: http://www.beijingchinesecuisineseattle.com
