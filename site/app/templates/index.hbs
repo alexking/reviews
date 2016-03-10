@@ -1,4 +1,5 @@
 {{#each model as |review| }}
   <h2>{{ review.name }}</h2>
+  {{ rating-component rating=review.rating of=5 }}
   <p>{{ review.review }}</p>
 {{/each}}
