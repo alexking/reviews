@@ -1,0 +1,5 @@
+<div class="rating" title="{{ rating }} of {{ of }}">
+{{#each ratingElements as |element| }}
+  <span class={{ if element "on" "off" }}></span>
+{{/each}}
+</div>
