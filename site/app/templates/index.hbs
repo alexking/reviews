@@ -1,6 +1,13 @@
+<div class="links">
+  <a href="/api/reviews.json">JSON</a>
+  <a href="/api/reviews.yaml">YAML</a>
+  <a href="https://github.com/alexking/reviews/blob/master/LICENSE">LICENSE</a>
+</div>
+
+<p class="info">{{ model.length }} <a href="https://github.com/alexking/reviews/blob/master/LICENSE">Open source</a> reviews, from <a href="http://alexking.io">Alex King</a> <span>(disclaimer, a vegetarian)</span></p>
+
 {{#each model as |review| }}
   <h2>{{ review.name }}</h2>
   {{ rating-component rating=review.rating of=5 }}
   <p>{{ review.review }}</p>
 {{/each}}
-

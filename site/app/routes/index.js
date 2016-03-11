@@ -4,6 +4,6 @@ export default Ember.Route.extend({
   model: function() {
 
     // Just grab the reviews, no Ember Data
-    return Ember.$.getJSON("reviews.json");
+    return Ember.$.getJSON("/api/reviews.json");
   }
 });

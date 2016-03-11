@@ -1,41 +1,70 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import (inline) url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
 body {
   font-family: Open Sans, sans-serif;
 }
 
 h1 {
-  text-transform: uppercase;
   font-weight: 300;
   font-size: 48px;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-bottom: 0.2em;
+  font-weight: 300;
+}
+
+p {
+  margin-top: 0.2em;
+}
+
+a {
+  color: #48659D;
 }
 
 .info {
   text-transform: uppercase;
+  span {
+    color: #ccc;
+  }
+}
 
+.links {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  a {
+    padding: 4px;
+  }
 }
 
 #all {
   width: 700px;
   margin: 0 auto;
+
 }
 
 .rating {
+
   @size: 14px;
+  @color: #9CC374;
 
   span {
     border-radius: @size / 2;
-    width: @size;
-    height: @size;
+    width: @size - 2;
+    height: @size - 2;
 
     display: inline-block;
 
     &.on {
-      background: #333;
+      background: @color;
+      border: 1px solid @color;
     }
 
     &.off {
-      background: #ccc;
+      border: 1px solid @color;
     }
   }
 }
