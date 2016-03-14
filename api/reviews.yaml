@@ -1,3 +1,19 @@
+- name: Thai Fusion Bistro
+  rating: 4
+  visits:
+    - cost: $34.91
+      people: 2
+  review: |
+    My favorite thing here is probably the Thai Fusion Pasta, but the Mango Fried rice is also great. Spring rolls are also solid with a great plum dipping sauce. Plus it's right next to a theater, so you can get dinner and walk right over to a movie.
+
+- name: Wild Mountain Cafe
+  rating: 5
+  visits:
+    - cost: $44.62
+      people: 2
+  review: |
+    Really wonderful spot for brunch - the whole place is a converted house, and filled entirely with recycled furniture, giving it a really nice feeling. But the real high point is the food - the flavors really pop, and there are plenty of veggie options (plus they'll happily modify anything for you). I'd recommend the Eggs Benedict, and the Tower of Power, which takes their delicious fried garlic mashed potato cakes and covers them with sauted veggies and cheese (with optional eggs on top). Don't miss this place!
+
 - name: Patty's Eggnest
   rating: 4
   website: http://pattyseggnestrestaurant.net
