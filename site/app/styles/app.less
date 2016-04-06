@@ -7,7 +7,11 @@ body {
 h1 {
   font-weight: 300;
   font-size: 48px;
-  margin-bottom: 0;
+  margin: 45px 0 0 0;
+
+  @media (max-width: 360px) {
+    font-size: 36px;
+  }
 }
 
 h2 {
@@ -28,6 +32,10 @@ a {
   span {
     color: #ccc;
   }
+
+  @media (max-width: 360px) {
+    font-size: 13px;
+  }
 }
 
 .links {
@@ -38,10 +46,15 @@ a {
   a {
     padding: 4px;
   }
+
+  @media (max-width: 360px) {
+    font-size: 13px;
+  }
 }
 
 #all {
-  width: 700px;
+  max-width: 700px;
+  padding: 0 20px;
   margin: 0 auto;
 
 }
