@@ -1,5 +1,6 @@
 var gulp = require("gulp");
 var yamlToJson = require("gulp-yaml");
+var prettify = require("gulp-jsbeautifier");
 var lintYaml = require("gulp-yaml-validate");
 var ghPages = require("gulp-gh-pages");
 var shell = require("gulp-shell");
@@ -13,27 +14,10 @@ gulp.task("json", function() {
 
 	// Build
 	gulp.src("source/reviews.yaml")
-		.pipe(gulp.dest("site/public/api"))
+		.pipe(gulp.dest("dist"))
 		.pipe(yamlToJson())
-		.pipe(gulp.dest("site/public/api"));
-
+		.pipe(prettify())
+		.pipe(gulp.dest("dist"));
 });
-
-gulp.task("ghpages", ["build"], function() {
-
-	gulp.src("site/dist/**/*")
-		.pipe(ghPages({
-			message: "Update [timestamp] [skip ci]"
-		}));
-});
-
-gulp.task("build", shell.task([
-	"ember build --environment='production'"
-], {
-	cwd: "site"
-}));
-
-gulp.task("deploy", ["ghpages"]);
-
 
 gulp.task("default", ["json"]);
